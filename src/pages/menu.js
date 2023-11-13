@@ -22,7 +22,7 @@ let section2 = myDiv()
 section2.classList.add('section2')
 let dishTitle2 = mypara("Dish Title: sausage");
 section2.appendChild(dishTitle2);
- let availEl2 = mypara("Availability: Yes");
+ let availEl2 = mypara("Availability: No");
  section2.appendChild(availEl2);
  let image2 = document.createElement('img');
  image2.src = "images/food2.jpg" 

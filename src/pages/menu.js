@@ -6,16 +6,17 @@ function menuListEl(){
     menuDiv.classList.add('content')
 
 //Dish one
+     let image1 = document.createElement('img');
+ image1.src = "dist/images/chef2.jpg"
+ image1.classList.add('image')
+ section1.appendChild(image1);
 let section1 = myDiv()
 section1.classList.add('section1')
 let dishTitle = mypara("Dish Title: Pizza");
 section1.appendChild(dishTitle);
  let availEl = mypara("Availability: Yes");
  section1.appendChild(availEl);
- let image1 = document.createElement('img');
- image1.src = "dist/images/chef2.jpg"
- image1.classList.add('image')
- section1.appendChild(image1);
+
 
 //Dish two
 let section2 = myDiv()

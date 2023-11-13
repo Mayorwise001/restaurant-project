@@ -21,7 +21,7 @@ section1.appendChild(dishTitle);
 //Dish two
 let section2 = myDiv()
 section2.classList.add('section2')
-let dishTitle2 = mypara("Dish Title: sausage");
+let dishTitle2 = mypara("Dish Title: sausage yes sauce");
 section2.appendChild(dishTitle2);
  let availEl2 = mypara("Availability: Yes");
  section2.appendChild(availEl2);

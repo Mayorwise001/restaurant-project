@@ -13,8 +13,8 @@ section1.appendChild(dishTitle);
  let availEl = mypara("Availability: Yes");
  section1.appendChild(availEl);
  let image1 = document.createElement('img');
- image1.src = "images/food.jpg"
- image1.classList.add('menuImage')
+ image1.src = "images/chef2.jpg"
+ image1.classList.add('image')
  section1.appendChild(image1);
 
 //Dish two

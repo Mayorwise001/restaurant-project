@@ -25,7 +25,7 @@ section2.appendChild(dishTitle2);
  let availEl2 = mypara("Availability: Yes");
  section2.appendChild(availEl2);
  let image2 = document.createElement('img');
- image2.src = "./dist/images/food2.jpg" 
+ image2.src = "../dist/images/food2.jpg" 
  image2.classList.add('menuImage')
  section2.appendChild(image2);
 
@@ -37,7 +37,7 @@ section3.appendChild(dishTitle3);
  let availEl3 = mypara("Availability: Yes");
  section3.appendChild(availEl3);
  let image3 = document.createElement('img');
- image3.src = "./images/friedrice.jpg"
+ image3.src = "../images/friedrice.jpg"
  image3.classList.add('menuImage')
  section3.appendChild(image3);
 
@@ -50,7 +50,7 @@ section4.appendChild(dishTitle4);
  let availEl4 = mypara("Availability: Yes");
  section4.appendChild(availEl4);
  let image4 = document.createElement('img');
- image4.src = "/images/grilledchicken.jpg"
+ image4.src = "./images/grilledchicken.jpg"
  image4.classList.add('menuImage')
  section4.appendChild(image4);
 

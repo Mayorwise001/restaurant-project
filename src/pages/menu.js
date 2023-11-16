@@ -6,26 +6,27 @@ function menuListEl(){
     menuDiv.classList.add('content')
 
 //Dish one
+     let image1 = document.createElement('img');
+ image1.src = "dist/images/chef2.jpg"
+ image1.classList.add('image')
+ section1.appendChild(image1);
 let section1 = myDiv()
 section1.classList.add('section1')
 let dishTitle = mypara("Dish Title: Pizza");
 section1.appendChild(dishTitle);
  let availEl = mypara("Availability: Yes");
  section1.appendChild(availEl);
- let image1 = document.createElement('img');
- image1.src = "images/food.jpg"
- image1.classList.add('menuImage')
- section1.appendChild(image1);
+
 
 //Dish two
 let section2 = myDiv()
 section2.classList.add('section2')
-let dishTitle2 = mypara("Dish Title: sausage");
+let dishTitle2 = mypara("Dish Title: sausage yes sauce");
 section2.appendChild(dishTitle2);
  let availEl2 = mypara("Availability: Yes");
  section2.appendChild(availEl2);
  let image2 = document.createElement('img');
- image2.src = "images/food2.jpg" 
+ image2.src = "../dist/images/food2.jpg" 
  image2.classList.add('menuImage')
  section2.appendChild(image2);
 
@@ -37,7 +38,7 @@ section3.appendChild(dishTitle3);
  let availEl3 = mypara("Availability: Yes");
  section3.appendChild(availEl3);
  let image3 = document.createElement('img');
- image3.src = "images/friedrice.jpg"
+ image3.src = "../images/friedrice.jpg"
  image3.classList.add('menuImage')
  section3.appendChild(image3);
 
@@ -50,7 +51,7 @@ section4.appendChild(dishTitle4);
  let availEl4 = mypara("Availability: Yes");
  section4.appendChild(availEl4);
  let image4 = document.createElement('img');
- image4.src = "images/grilledchicken.jpg"
+ image4.src = "./images/grilledchicken.jpg"
  image4.classList.add('menuImage')
  section4.appendChild(image4);
 

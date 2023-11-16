@@ -18,7 +18,7 @@ function createHome(){
 
     //Order Button
     let orderBtn = document.createElement('button');
-    orderBtn.textContent = "Order Now";
+    orderBtn.textContent = "Order Now Now";
     orderBtn.classList.add("order");
     homeDiv.appendChild(orderBtn);
 
